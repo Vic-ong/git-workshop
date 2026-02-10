@@ -39,13 +39,11 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-zinc-900 text-zinc-100 flex flex-col items-center justify-center px-6">
+    <div className="min-h-screen bg-zinc-50 text-zinc-100 flex flex-col items-center justify-center px-6">
       <div className="max-w-xl w-full text-center space-y-8">
         <div className="text-7xl">🦝</div>
 
-        <h1 className="text-3xl font-bold tracking-tight">
-          Raccoon Facts
-        </h1>
+        <h1 className="text-3xl font-bold tracking-tight">Raccoon Facts</h1>
 
         <div
           className={`bg-zinc-800 rounded-2xl p-8 shadow-lg border border-zinc-700 transition-opacity duration-200 ${
